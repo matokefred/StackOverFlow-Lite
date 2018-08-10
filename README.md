@@ -7,31 +7,34 @@ The platform once complete will have three main parts: the initial pages (Login 
 
 # Project Breakdown:
 
-# Sgnup: 
+# Sgnup
 Allows a new user to create an account
 
-# Login: 
+# Login
 An already registered user can access the dashboard and navigate
 
-# Dashboard: 
+# Dashboard
 Provides user interaction by allowing them to access their profile and questions.
 
-# Profile: 
+# Profile
 Allows the user to post a new question, provides the user with the questions that they have already asked, the answers to the questions and a sorting option for the questions with the most answers.
 
-# Questions: 
+# Questions 
 User is able to view all the questions that have already been asked, select a question to view its answers and can post a question.
 StackOverflow-lite
-# Guide
+# Guide:
 You can either clone from github using git or download a zipped folder:
-# Downloading:
+# Downloading
 Download the zipped file of this repository.
 Extract and go to the UI directory.
 Open index.html file in your favourite browser (Google chrome, Mozilla firefox, or opera mini)
 # Cloning: 
 Open git and issue this command:
+
 $ git clone https://github.com/matokefred/StackOverflow-lite.git 
+
 Locate the StackOverflow-lite folder in your pc.
+
 Navigate the UI folder and open index.html using your favourite browser.
 # Development tools
 HTML5
@@ -44,7 +47,7 @@ Pivotal Tracker (Agile Project Management)
 
 # To make any contributions:
 On github, fork the repository
-Either clone or download the repository to your local computer, and then:
+Either clone or download the repository to your local computer,for cloning on git:
 
 $ git clone https://github.com/matokefred/StackOverflow-lite.git
 
