@@ -28,7 +28,7 @@ You can either clone from github using git or download a zipped folder:
 Download the zipped file of this repository.
 Extract and go to the UI directory.
 Open index.html file in your favourite browser (Google chrome, Mozilla firefox, or opera mini)
-# Cloning: 
+# Cloning
 Open git and issue this command:
 
 $ git clone https://github.com/matokefred/StackOverflow-lite.git 
