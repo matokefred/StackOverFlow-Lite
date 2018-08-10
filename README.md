@@ -35,16 +35,24 @@ Locate the StackOverflow-lite folder in your pc.
 Navigate the UI folder and open index.html using your favourite browser.
 # Development tools
 HTML5
-CSS3
-Version control (Git)
-Agile Project Management (Pivotal Tracker)
+
+Css3
+
+Git (Version Control)
+
+Pivotal Tracker (Agile Project Management)
+
 # To make any contributions:
 On github, fork the repository
-Either clone or download the repository to your local computer
+Either clone or download the repository to your local computer, and then:
 
 $ git clone https://github.com/matokefred/StackOverflow-lite.git
+
 $ cd StackOverflow-lite
+
 $ git fetch --all
+
 $ git pull --all
+
 # Special thanks
 Andela Bootcamp - cohort 31
