@@ -1,0 +1,278 @@
+#bodyIndex {
+	font: 15px/2.0 Arial, Helvetica, sans-serif /*This is a shortcut*/
+	padding:0;
+	margin: 0;
+	min-height: auto;
+	background: url('../images/computer-3076956__340.jpg') no-repeat 0 -200px;
+	height: 558px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	color;#ffffff;
+}
+
+.holder {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	padding: 1px;
+	color: #ffffff;
+}
+header{
+	height:15%;
+	background-color:transparent;
+	color:#ffffff;
+	padding-top:10px;
+	min-height:50px;/*This is for the sake of responsiveness*/
+	/*border-bottom: #3e3e3e 2px solid;*/	
+	font-family: courier;
+}
+header a{
+	color:#ffffff;
+	text-decoration:none; /*To remove the underlining*/
+	/*text-transform:uppercase;*/
+	font-size:20px;
+}
+header #brand h2{
+	float: left;
+	color:#ffffff;
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+section #welcome h1{
+	font-weight: none;
+	font-size: 70px;
+	text-align: center;
+	font-family: courier;
+}
+section #welcome p{
+	font-size: 70px;
+	color:#ffffff;
+	font-family: courier;
+}
+.buttons{
+	height:50px;
+	background: #3e3e3e;
+	color:#ffffff;
+	border:0;
+	width:100px;
+	border-radius: 8px;
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: courier;
+}
+
+ footer{
+	position: fixed;
+	bottom: 0;
+	left:0;
+	right:0;
+	text-align: center;
+}
+
+/*Styling the login page*/
+#bodyLogin {
+	font: 15px/2.0 Arial, Helvetica, sans-serif /*This is a shortcut*/
+	padding:0;
+	margin: 0;
+	min-height: auto;
+	background: url('../images/coffee-3047385__340.jpg') no-repeat 0 -200px;
+	height: 558px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	color;#ffffff;
+}
+
+fieldset{
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 380px;
+	align:center;
+	color: #ffffff;
+	font-size: 25px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #999;
+	font-family:courier;
+}
+
+input[type= text]{
+	width: 100%;
+	padding: 8px 16px;
+	margin:8px 0;
+	box-sizing: border-box;
+	background-color:transparent;
+	font-size:20px;
+	font-family: courier;
+	border-radius: 8px;
+	color: black;
+}
+#password-field{
+	width: 100%;
+	padding: 6px 12px;
+	margin: 0 2px;
+	box-sizing: border-box;
+	background-color:transparent;
+	font-size:20px;
+	font-family: courier;
+	border-radius: 8px;
+	color: black;
+}
+footer #footerLogin{
+	position: relative;
+	top: 500 px;
+}
+#buttonLogin{
+	height:50px;
+	background: #3e3e3e;
+	color:#ffffff;
+	border:0;
+	width:120px;
+	float: center;
+	border-radius: 8px;
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: courier;
+}
+#buttonClear{
+	height:50px;
+	background: #3e3e3e;
+	color:#ffffff;
+	border:0;
+	width:120px;
+	border-radius: 8px;
+	float:right;
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: courier;
+}
+/*Styling the signup page*/
+#bodySign {
+	font: 15px/2.0 Arial, Helvetica, sans-serif /*This is a shortcut*/
+	padding:0;
+	margin: 0;
+	min-height: auto;
+	background: url('../images/computer-2242264__340.jpg') no-repeat 0 -200px;
+	height: 558px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	color;#ffffff;
+}
+#fieldSign{
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 530px;
+	align:center;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #999;
+	font-family:courier;
+}
+#password-field{
+	width: 100%;
+	padding: 6px 12px;
+	margin: 0 2px;
+	box-sizing: border-box;
+	background-color:transparent;
+	font-size:20px;
+	font-family: courier;
+	border-radius: 8px;
+	color: black;
+}
+input[type= email]{
+	width: 100%;
+	padding: 8px 16px;
+	margin:8px 0;
+	box-sizing: border-box;
+	background-color:transparent;
+	font-size:20px;
+	border-radius: 8px;
+	font-family: courier;
+	color: black;
+}
+	/*Styling the dashboard*/
+#bodyDash {
+	font: 15px/2.0 Arial, Helvetica, sans-serif /*This is a shortcut*/
+	padding:0;
+	margin: 0;
+	min-height: auto;
+	background: url('../images/vintage-1170654__340.jpg') no-repeat 0 -200px;
+	height: 560px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	color;#ffffff;
+}
+
+#fieldDash{
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 350px;
+	align:center;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #999;
+	font-family:courier;
+}
+
+#fieldDashQuestions{
+	display: block;
+	margin: auto;
+	width: 250px;
+	height: 300px;
+	float:left;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #999;
+	font-family:courier;
+}
+
+#fieldDashProfile{
+	display: block;
+	margin: auto;
+	width: 250px;
+	height: 300px;
+	float:right;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #999;
+	font-family:courier;
+}
+#fieldProfile{
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 530px;
+	float:center;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #999;
+	font-family:courier;
+}
+#fieldQuestions{
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 530px;
+	float:center;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #999;
+	font-family:courier;
+}
