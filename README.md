@@ -58,4 +58,4 @@ $ git fetch --all
 $ git pull --all
 
 # Special thanks
-Andela Bootcamp - cohort 31
+Andela Bootcamp Preparation - cohort 31
