@@ -49,7 +49,7 @@ Pivotal Tracker (Agile Project Management)
 On github, fork the repository
 Either clone or download the repository to your local computer,for cloning on git:
 
-$ git clone https://github.com/matokefred/StackOverflow-lite.git
+$ git clone https://github.com/matokefred/StackOverflow-Lite.git
 
 $ cd StackOverflow-Lite
 
