@@ -51,7 +51,7 @@ Either clone or download the repository to your local computer,for cloning on gi
 
 $ git clone https://github.com/matokefred/StackOverflow-lite.git
 
-$ cd StackOverflow-lite
+$ cd StackOverflow-Lite
 
 $ git fetch --all
 
