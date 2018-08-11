@@ -7,7 +7,7 @@ The platform once complete will have three main parts: the initial pages (Login 
 
 # Project Breakdown:
 
-# Sgnup
+# Signup
 Allows a new user to create an account
 
 # Login
