@@ -31,7 +31,7 @@ Open index.html file in your favourite browser (Google chrome, Mozilla firefox, 
 # Cloning
 Open git and issue this command:
 
-$ git clone https://github.com/matokefred/StackOverflow-lite.git 
+$ git clone https://github.com/matokefred/StackOverflow-Lite.git 
 
 Locate the StackOverflow-lite folder in your pc.
 
