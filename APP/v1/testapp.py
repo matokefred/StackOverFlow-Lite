@@ -10,8 +10,8 @@ class Tdd(unittest.TestCase):
 
     def test_get_a_question(self):
         testing = app.test_client(self)
-        response = testing.get('/questions/1', content_type='json')
-        self.assertIn(b'Requested Question', response.data)
+        response = testing.get('/questions/4', content_type='json')
+        self.assertEqual(response.status_code, 400)
 
     def test_add_question(self):
         testing = app.test_client(self)
@@ -21,7 +21,12 @@ class Tdd(unittest.TestCase):
     def test_add_answer(self):
         testing = app.test_client(self)
         response = testing.post('/questions/2/answers', content_type='json')
-        self.assertIn(b'You answered this question', response.data)
+        self.assertEqual(response.status_code, 400)
+
+    def test_delete_question(self):
+        testing = app.test_client(self)
+        response = testing.delete('/questions/1', content_type='json')
+        self.assertIn(b'The question has been deleted successfully', response.data)
 
 
 if __name__ == '__main__':

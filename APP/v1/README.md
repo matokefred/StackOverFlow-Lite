@@ -53,6 +53,10 @@ curl -i -H "Content-Type: application/json" -X POST -d "{"""category""": """spor
 
 curl -i -H "Content-Type: application/json" -X POST -d "{"""answer""": """Modelling computers to make decisions independently"""}" http://localhost:5000/questions/3/answers
 
+# To delete a question
+
+curl -i -X DELETE http://localhost:5000/questions/1
+
 #Development tools
 Flask (server side configuration)
 
@@ -72,6 +76,9 @@ $ cd StackOverflow-Lite
 $ git fetch --all
 
 $ git pull --all
+
+#Current Travis CI Status because of a failed test
+[![Build Status](https://travis-ci.org/matokefred/StackOverFlow-Lite.svg?branch=api)](https://travis-ci.org/matokefred/StackOverFlow-Lite)
 
 #Special thanks
 
