@@ -80,6 +80,9 @@ $ git pull --all
 #Current Travis CI Status because of a failed test
 [![Build Status](https://travis-ci.org/matokefred/StackOverFlow-Lite.svg?branch=api)](https://travis-ci.org/matokefred/StackOverFlow-Lite)
 
+#The relative code coverage
+[![Coverage Status](https://coveralls.io/repos/github/matokefred/StackOverFlow-Lite/badge.svg?branch=master)](https://coveralls.io/github/matokefred/StackOverFlow-Lite?branch=master)
+
 #Special thanks
 
 Andela Bootcamp Preparation - cohort 31
