@@ -1,13 +1,19 @@
-require: 'coveralls'
-Coveralls.wear!
-sudo: false
+# require: 'coveralls'
+# Coveralls.wear!
 language: python
 python :
-        -"3.5"
         -"3.6"
-cache: pip
+        -"3.5"
+# cache: pip
 install :
         -pip install -r requirements.txt
-script: python testapp.py
+        -pip install coverage
+script: True
+        python testapp.py --with-coverage --coverage report
+
+after_script:
+        - coveralls
+
 after_success:
-        -"coverall"
+        - codecov
+
